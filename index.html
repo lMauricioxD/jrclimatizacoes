@@ -13,17 +13,23 @@
       font-family: Arial, sans-serif;
       background: #f5f7fa;
     }
-    .hero {
-  height: 100vh;            /* altura da tela inteira */
+
+<header class="hero">
+  <img src="logo.png" alt="JR Climatizações" class="logo-full">
+</header>
+.hero {
+  height: 100vh;              /* ocupa a tela inteira */
+  background: linear-gradient(135deg, #0b4da2, #0a3d78);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
+  overflow: hidden;
 }
 
 .logo-full {
-  max-width: 90%;
-  max-height: 90%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;        /* NÃO distorce a imagem */
 }
 
 
