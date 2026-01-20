@@ -6,7 +6,17 @@
 }
 
 /* TOPO */
-
+/*.hero {
+  height: 10vh; /* tela inteira */
+  background: 
+    linear-gradient(rgba(0,0,80,0.6), rgba(0,0,80,0.6)),
+    url("logo.png") no-repeat center center;
+  background-size: contain; /* MUDE para cover se quiser cortar */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+}*/
 
 .hero h1 {
   color: white;
