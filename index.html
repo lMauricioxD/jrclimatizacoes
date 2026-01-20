@@ -1,32 +1,117 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <title>JR Climatizações</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <div class="hero">
-  <img src="logo.png">
-</div>
 
+  <!-- RESPONSIVO -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #0b4da2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .servicos {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 1 250px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .botoes {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .botoes a {
+      flex: 1 1 200px;
+      background: #25d366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .instagram {
+      background: #e1306c !important;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ddd;
+      margin-top: 40px;
+    }
+  </style>
 </head>
+
 <body>
 
-  <!-- TOPO COM LOGO EM FUNDO -->
-  <header class="hero">
-    <h1>JR Climatizações</h1>
-  </header>
+<header>
+  <h1>JR Climatizações</h1>
+  <p>Instalação • Manutenção • Higienização</p>
+</header>
 
-  <!-- BOTÕES -->
-  <section class="botoes">
-    <a href="https://wa.me/5585988305783" class="btn whatsapp">WhatsApp 1</a>
-    <a href="https://wa.me/5585992590124" class="btn whatsapp">WhatsApp 2</a>
-    <a href="https://instagram.com/jr.climatizacoes" class="btn instagram">Instagram</a>
-  </section>
+<div class="container">
 
-  <footer>
-    © 2026 JR Climatizações
-  </footer>
+  <div class="servicos">
+    <div class="card">Instalação de Ar-Condicionado</div>
+    <div class="card">Manutenção Preventiva</div>
+    <div class="card">Higienização Completa</div>
+  </div>
+
+  <div class="botoes">
+    <a href="https://wa.me/5585988305783" target="_blank">
+      WhatsApp 1
+    </a>
+
+    <a href="https://wa.me/5585992590124" target="_blank">
+      WhatsApp 2
+    </a>
+
+    <a href="https://instagram.com/jr.climatizacoes" 
+       class="instagram" target="_blank">
+      Instagram
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 JR Climatizações
+</footer>
 
 </body>
 </html>
