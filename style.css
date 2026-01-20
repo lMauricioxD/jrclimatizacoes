@@ -6,7 +6,7 @@
 }
 
 /* TOPO */
-/*.hero {
+.hero {
   height: 10vh; /* tela inteira */
   background: 
     linear-gradient(rgba(0,0,80,0.6), rgba(0,0,80,0.6)),
@@ -16,7 +16,7 @@
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 30px;
-}*/
+}
 
 .hero h1 {
   color: white;
