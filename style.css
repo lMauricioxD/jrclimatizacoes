@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* TOPO */
+.hero {
+  height: 100vh; /* tela inteira */
+  background: 
+    linear-gradient(rgba(0,0,80,0.6), rgba(0,0,80,0.6)),
+    url("logo.png") no-repeat center center;
+  background-size: contain; /* MUDE para cover se quiser cortar */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+/* BOTÕES */
+.botoes {
+  padding: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #f5f7fa;
+}
+
+.btn {
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  min-width: 160px;
+  text-align: center;
+}
+
+.whatsapp {
+  background: #00e676;
+}
+
+.instagram {
+  background: #ff0050;
+}
+
+/* RODAPÉ */
+footer {
+  background: #0b1c6d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  .hero {
+    background-size: contain;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}
